@@ -2,15 +2,14 @@ package Pom_class;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class API_pomclass {
-	public static WebDriver driver1;
+	public static WebDriver pomdriver;
 	
 	public API_pomclass(WebDriver driver1) {
-		this.driver1 = driver1;
+		this.pomdriver = driver1;
 		PageFactory.initElements(driver1, this);
 		
 	}

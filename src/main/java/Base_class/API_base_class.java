@@ -8,7 +8,6 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class API_base_class {
@@ -121,5 +120,8 @@ public class API_base_class {
 	
 	public static void Geturl(String url) {
 		driver.get(url);
+	}
+	public static void closedriver() {
+		driver.close();
 	}
 	}
