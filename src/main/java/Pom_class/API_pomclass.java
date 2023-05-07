@@ -18,8 +18,9 @@ public class API_pomclass {
 	public WebElement getapi;
 
 
-
 	public WebElement getGetapi() {
 		return getapi;
 	}
+	
+	
 }
